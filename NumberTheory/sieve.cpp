@@ -41,12 +41,12 @@ vector<int> sieve(int n ) {
     return prime_sieve ;
 }
 int main() {
+
     vector<int> ans = sieve(1000) ;
     for(auto x : ans)
         cout<<x<<"\t";
     cout<<'\n';
     cout<<ans.size()<<'\n';
-
     //10^1 => 4 primes
     // 10^100 =>25 primes
     /*
